@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GameCritique</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1//jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        /* Stilizacija padajućeg izbornika */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        margin-right: 20px; /* Dodajem razmak između padajućeg izbornika i sljedećeg elementa */
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    </style>
+</head>
+<body>
+
+<!--Navigacija-->
+
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+<a class="navbar-brand" href="index.html"><img src="../web stranica/logo_gamecritiquee.png" width="160px" height="120px"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarResponsive"> 
+    <ul class="navbar-nav ml-auto">
+<li class="nav-item active">
+<a class="nav-link" href="index.html">NASLOVNICA</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="onama.html">O NAMA</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../web stranica/merch.html">MERCH</a>
+</li>
+    <div class="dropdown">
+      <!-- Dodao padajući izbornik unutar navigacije -->
+      <span class="nav-link">Recenzije</span>
+      <div class="dropdown-content">
+        <a href="../web stranica/RedDeadRedemption2.html">Red dead redemption 2</a>
+        <a href="../web stranica/DetroitBecomeHuman.html">Detroit: Become Human</a>
+        <a href="../web stranica/Don'tStarve.html">Don't Starve Together</a>
+        <a href="../web stranica/Raft.html">Raft</a>
+      </div>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#"
+      ><i class="fa fa-shopping-basket"></i
+    ></a>
+  </li>
+</ul>
+</div>
+</div>
+</nav>
+
+</head>
+<body>
+        <div class = "products">
+            <div class = "container">
+                <h1 class = "lg-title">MERCH</h1>
+
+                <div class = "product-items">
+                    
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-img">
+                                <img src = "../web stranica/merch/merch1.png" alt = "product image">
+                            </div>
+                            <div class = "product-btns">
+                                <button type = "button" class = "btn-cart"> DODAJ U KOŠARICU
+                                    <span><i class = "fas fa-plus"></i></span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">MERCH</h2>
+                            </div>
+                            <a class = "product-name">Bilježnica</a>
+                            <p class = "cijena">$ 5.00</p>
+                            
+                        </div>
+                    </div>
+                   
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-img">
+                                <img src = "../web stranica/merch/merch7.png" alt = "product image">
+                            </div>
+                            <div class = "product-btns">
+                                <button type = "button" class = "btn-cart"> DODAJ U KOŠARICU
+                                    <span><i class = "fas fa-plus"></i></span>
+                                </button>
+                            </div>
+                        </div>
+                        
+                    <div class = "product-info">
+                        <div class = "product-info-top">
+                            <h2 class = "sm-title">MERCH</h2>
+                        </div>
+                        <a class = "product-name">Majica sa kapuljačom, crna</a>
+                        <p class = "cijena">$ 25.00</p>
+                        
+                    </div>
+                </div>
+
+                <div class = "product">
+                    <div class = "product-content">
+                        <div class = "product-img">
+                            <img src = "../web stranica/merch/merch8.png" alt = "product image">
+                        </div>
+                        <div class = "product-btns">
+                            <button type = "button" class = "btn-cart"> DODAJ U KOŠARICU
+                                <span><i class = "fas fa-plus"></i></span>
+                            </button>
+                        </div>
+                    </div>
+
+                <div class = "product-info">
+                    <div class = "product-info-top">
+                        <h2 class = "sm-title">MERCH</h2>
+                    </div>
+                    <a class = "product-name">Majica sa kapuljačom, bijela</a>
+                    <p class = "cijena">$ 25.00</p>
+                    
+                </div>
+            </div>
+
+                        <div class = "product">
+                            <div class = "product-content">
+                                <div class = "product-img">
+                                    <img src = "../web stranica/merch/merch10.png" alt = "product image">
+                                </div>
+                                <div class = "product-btns">
+                                    <button type = "button" class = "btn-cart"> DODAJ U KOŠRICU
+                                        <span><i class = "fas fa-plus"></i></span>
+                                    </button>
+                                </div>
+                            </div>
+    
+                               <div class = "product-info">
+                        <div class = "product-info-top">
+                            <h2 class = "sm-title">MERCH</h2>
+                        </div>
+                        <a class = "product-name">Majica kratkih rukava, bijela</a>
+                        <p class = "cijena">$ 15.00</p>
+                        
+                    </div>
+                </div>
+
+
+                            <div class = "product">
+                                <div class = "product-content">
+                                    <div class = "product-img">
+                                        <img src = "../web stranica/merch/merch9.png" alt = "product image">
+                                    </div>
+                                    <div class = "product-btns">
+                                        <button type = "button" class = "btn-cart"> DODAJ U KOŠRICU
+                                            <span><i class = "fas fa-plus"></i></span>
+                                        </button>
+                                    </div>
+                                </div>
+        
+                                <div class = "product-info">
+                                    <div class = "product-info-top">
+                                        <h2 class = "sm-title">MERCH</h2>
+                                    </div>
+                                    <a class = "product-name">Majica kratkih rukava, crna</a>
+                                    <p class = "cijena">$ 15.00</p>
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class = "product">
+                                <div class = "product-content">
+                                    <div class = "product-img">
+                                        <img src = "../web stranica/merch/merch6.png" alt = "product image">
+                                    </div>
+                                    <div class = "product-btns">
+                                        <button type = "button" class = "btn-cart"> DODAJ U KOŠRICU
+                                            <span><i class = "fas fa-plus"></i></span>
+                                        </button>
+                                    </div>
+                                </div>
+        
+                                <div class = "product-info">
+                                    <div class = "product-info-top">
+                                        <h2 class = "sm-title">MERCH</h2>
+                                    </div>
+                                    <a class = "product-name">Kapa, plavo bijela</a>
+                                    <p class = "cijena">$ 10.00</p>
+                                    
+                                </div>
+                            </div>
+
+
+                            
+                            <div class = "product">
+                                <div class = "product-content">
+                                    <div class = "product-img">
+                                        <img src = "../web stranica/merch/merch5.png" alt = "product image">
+                                    </div>
+                                    <div class = "product-btns">
+                                        <button type = "button" class = "btn-cart"> DODAJ U KOŠRICU
+                                            <span><i class = "fas fa-plus"></i></span>
+                                        </button>
+                                    </div>
+                                </div>
+        
+                                <div class = "product-info">
+                                    <div class = "product-info-top">
+                                        <h2 class = "sm-title">MERCH</h2>
+                                    </div>
+                                    <a class = "product-name">Šalica</a>
+                                    <p class = "cijena">$ 5.00</p>
+                                    
+                                </div>
+                            </div>
+
+
+                            
+                            <div class = "product">
+                                <div class = "product-content">
+                                    <div class = "product-img">
+                                        <img src = "../web stranica/merch/merch3.png" alt = "product image">
+                                    </div>
+                                    <div class = "product-btns">
+                                        <button type = "button" class = "btn-cart"> DODAJ U KOŠRICU
+                                            <span><i class = "fas fa-plus"></i></span>
+                                        </button>
+                                    </div>
+                                </div>
+        
+                                <div class = "product-info">
+                                    <div class = "product-info-top">
+                                        <h2 class = "sm-title">MERCH</h2>
+                                    </div>
+                                    <a class = "product-name">Platnena torba, roza</a>
+                                    <p class = "cijena">$ 5.00</p>
+                                    
+                                </div>
+                            </div>
+
+                            <div class = "product">
+                                <div class = "product-content">
+                                    <div class = "product-img">
+                                        <img src = "../web stranica/merch/merch2.png" alt = "product image">
+                                    </div>
+                                    <div class = "product-btns">
+                                        <button type = "button" class = "btn-cart"> DODAJ U KOŠRICU
+                                            <span><i class = "fas fa-plus"></i></span>
+                                        </button>
+                                    </div>
+                                </div>
+        
+                                <div class = "product-info">
+                                    <div class = "product-info-top">
+                                        <h2 class = "sm-title">MERCH</h2>
+                                    </div>
+                                    <a class = "product-name">Platnena torba, crna</a>
+                                    <p class = "cijena">$ 5.00</p>
+                                    
+                                </div>
+                            </div>
+
+                            <div class = "product">
+                                <div class = "product-content">
+                                    <div class = "product-img">
+                                        <img src = "../web stranica/merch/merch3.png" alt = "product image">
+                                    </div>
+                                    <div class = "product-btns">
+                                        <button type = "button" class = "btn-cart"> DODAJ U KOŠRICU
+                                            <span><i class = "fas fa-plus"></i></span>
+                                        </button>
+                                    </div>
+                                </div>
+        
+                                <div class = "product-info">
+                                    <div class = "product-info-top">
+                                        <h2 class = "sm-title">MERCH</h2>
+                                    </div>
+                                    <a class = "product-name">Platnena torba, plava</a>
+                                    <p class = "cijena">$ 5.00</p>
+                                    
+                                </div>
+                            </div>
+                            
+
+                   
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

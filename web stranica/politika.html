@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GameCritique</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1//jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        /* Stilizacija padajućeg izbornika */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        margin-right: 20px; /* Dodajem razmak između padajućeg izbornika i sljedećeg elementa */
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    </style>
+</head>
+<body>
+
+<!--Navigacija-->
+
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+<a class="navbar-brand" href="index.html"><img src="../web stranica/logo_gamecritiquee.png" width="160px" height="120px"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarResponsive"> 
+    <ul class="navbar-nav ml-auto">
+<li class="nav-item active">
+<a class="nav-link" href="index.html">NASLOVNICA</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="onama.html">O NAMA</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../web stranica/merch.html">MERCH</a>
+</li>
+    <div class="dropdown">
+      <!-- Dodao padajući izbornik unutar navigacije -->
+      <span class="nav-link">Recenzije</span>
+      <div class="dropdown-content">
+        <a href="../web stranica/RedDeadRedemption2.html">Red dead redemption 2</a>
+        <a href="../web stranica/DetroitBecomeHuman.html">Detroit: Become Human</a>
+        <a href="../web stranica/Don'tStarve.html">Don't Starve Together</a>
+        <a href="../web stranica/Raft.html">Raft</a>
+      </div>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#"
+      ><i class="fa fa-shopping-basket"></i
+    ></a>
+  </li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!--Carousel-->
+
+<div id="slides" class="carousel slide" data-ride="carousel">
+<ul class="carousel-indicators">
+<li data-target="#slides" data-slide-to="0" class="active"></li>
+<li data-target="#slides" data-slide-to="1"></li>
+<li data-target="#slides" data-slide-to="2"></li> </ul>
+<div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="../web stranica/carousel/curosel_pozadina2.png">
+        </div>
+<div class="carousel-item">
+<img src="../web stranica/carousel/curosel_pozadina2prava.png">
+</div>
+<div class="carousel-item">
+<img src="../web stranica/carousel/curosel_pozadina3.png">
+</div>
+</div>
+</div>
+
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+			color: #333;
+			background-color: #f5f5f5;
+			padding: 0;
+			margin: 0;
+		}
+		header {
+			background-color: #fff;
+			padding: 10px;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		h1 {
+			font-size: 40px;
+			margin: 0;
+            text-align: center;
+			color:darkslategrey;
+		}
+        h2{
+            font-size:20px;
+            text-align: center;
+            padding: 20px;
+        }
+		p {
+			margin: 0 0 10px 0;
+            text-align: center;
+			line-height: 1.5;
+		}
+		.container {
+			max-width: 960px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Politika privatnosti</h1>
+	</header>
+	<div class="container">
+		<h2>Koje podatke prikupljamo i kako ih koristimo?</h2>
+		<p>Prikupljamo samo one podatke koje nam sami date, kao što su vaše ime, adresa, e-mail adresa i telefonski broj. Ti podaci su potrebni za obradu vaših narudžbi i za komunikaciju s vama. Također koristimo podatke kako bismo vam mogli pružiti najbolju moguću uslugu, personalizirati vaše iskustvo i poboljšati našu web stranicu.</p>
+        <h2>Kako štitimo vaše podatke?</h2>
+        <p>Vaši osobni podaci su sigurni kod nas. Koristimo najbolje sigurnosne tehnologije kako bismo osigurali da su vaši podaci zaštićeni od neovlaštenog pristupa.Više o sigurnosti vaših podataka pročitajte na <a href="sigurnost.html"> Sigurnost kupovine</a>
+        <h2>Kako se odjaviti?</h2>
+        <p>Ako više ne želite primati naše promotivne e-mailove ili želite da izbrišemo vaše podatke iz naše baze podataka, molimo kontaktirajte nas putem <a href="mailto:bold@mail.com"> e-maila </a> ili <a href="tel:+3852778004">telefona </a>i rado ćemo vam pomoći.</p>
+</div>
+</body>
+</html>
