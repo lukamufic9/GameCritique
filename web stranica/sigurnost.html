@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GameCritique</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1//jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        /* Stilizacija padajućeg izbornika */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        margin-right: 20px; /* Dodajem razmak između padajućeg izbornika i sljedećeg elementa */
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    </style>
+</head>
+<body>
+
+<!--Navigacija-->
+
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+<a class="navbar-brand" href="index.html"><img src="../web stranica/logo_gamecritiquee.png" width="160px" height="120px"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarResponsive"> 
+    <ul class="navbar-nav ml-auto">
+<li class="nav-item active">
+<a class="nav-link" href="index.html">NASLOVNICA</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="onama.html">O NAMA</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../web stranica/merch.html">MERCH</a>
+</li>
+    <div class="dropdown">
+      <!-- Dodao padajući izbornik unutar navigacije -->
+      <span class="nav-link">Recenzije</span>
+      <div class="dropdown-content">
+        <a href="../web stranica/RedDeadRedemption2.html">Red dead redemption 2</a>
+        <a href="../web stranica/DetroitBecomeHuman.html">Detroit: Become Human</a>
+        <a href="../web stranica/Don'tStarve.html">Don't Starve Together</a>
+        <a href="../web stranica/Raft.html">Raft</a>
+      </div>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#"
+      ><i class="fa fa-shopping-basket"></i
+    ></a>
+  </li>
+</ul>
+</div>
+</div>
+</nav>
+
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+			color: #333;
+			background-color: #f5f5f5;
+			padding: 0;
+			margin: 0;
+		}
+		header {
+			background-color: #fff;
+			padding: 10px;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		h1 {
+			font-size: 40px;
+			margin: 0;
+            text-align: center;
+			color:darkslategrey;
+		}
+        h2{
+            font-size:20px;
+            text-align: center;
+            padding: 20px;
+        }
+		p {
+			margin: 0 0 10px 0;
+            text-align: center;
+			line-height: 1.5;
+		}
+		.container {
+			max-width: 960px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+</style>
+</head>
+<body>
+	<header>
+		<h1>Sigurnost kupovine</h1>
+	</header>
+	<div class="container">
+		<h2>Tajnost podataka</h2>
+        <p>Tajnost Vaših podataka je zaštićena i osigurana uporabom SSL enkripcije. Stranice za naplatu putem interneta osigurane su korištenjem Secure Socket Layer (SSL) protokola sa 128-bitnom enkripcijom podataka. </p>
+        <p>Ne pohranjujemo brojeve kreditnih kartica i brojevi nisu dostupni neovlaštenim osobama</p>
+        <h2>Jamstvo kvalitete proizvoda</h2>
+        <p>Za sve proizvode iz internetske prodaje GameCritique jamči da su nabavljeni legitimnim kanalima i da imamo sva prava prodaje tih proizvoda putem interneta te njihove distribucije.</p>
+</div>
+</body>
+</html>
